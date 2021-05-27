@@ -1,0 +1,33 @@
+.header {
+  /* height: 80px; */
+  background-color: var(--white);
+  border-bottom: 2px solid var(--white);
+}
+
+.header__nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/* .header__nav p {
+ 
+} */
+
+.header__theme {
+  font-size: 13px;
+}
+
+.header__icon {
+  height: 13px;
+  width: 13px;
+  fill: green !important;
+  margin-right: 10px;
+}
+
+@media (min-width: 40em) {
+  p {
+    font-size: 20px;
+  }
+}
