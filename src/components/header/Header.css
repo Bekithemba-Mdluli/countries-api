@@ -1,7 +1,7 @@
 .header {
   /* height: 80px; */
-  background-color: var(--white);
-  border-bottom: 2px solid var(--white);
+  background-color: var(--bg);
+  /* border-bottom: 2px solid var(--white); */
 }
 
 .header__nav {
@@ -11,9 +11,9 @@
   font-weight: 800;
 }
 
-/* .header__nav p {
- 
-} */
+.header__nav p {
+  color: var(--text);
+}
 
 .header__theme {
   font-size: 13px;

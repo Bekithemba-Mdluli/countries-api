@@ -17,6 +17,16 @@ html[data-theme='light'] {
   --bg: var(--color-light-gray);
   --text: var(--color-dark-blue3);
   --input: var(--color-dark-gray);
+  --card: var(--white);
+  /* --text-header: var(--color-dark-blue3); */
+}
+
+html[data-theme='dark'] {
+  --bg: var(--color-dark-blue2);
+  --text: var(--white);
+  --input: var(--color-dark-blue);
+  --card: var(--color-dark-blue);
+  /* --text-header: var(--white); */
 }
 
 *,
@@ -81,7 +91,7 @@ p {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 95%;
   }
 }
 
@@ -117,4 +127,15 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
+  color: #000;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  -webkit-transition: all 750ms !important;
+  transition: background-color 750ms !important;
+  -webkit-transition-delay: 0 !important;
+  transition-delay: 0 !important;
 }
